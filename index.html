@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بونسیا - پلتفرم مدیریت کسب و کار</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <img class="logo-img" src="pics/tickets.png" alt="بونسیا">
+                <h3 class="logo-title">بونسیا</h3>
+            </div>
+            <nav class="nav">
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            محصولات 
+                            <img class="menu__dropdown_icon" src="pics/chevron-down.png" alt="">
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            قالب ها 
+                            <img class="menu__dropdown_icon" src="pics/chevron-down.png" alt="">
+                        </a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">قیمت گزاری</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">نظرات</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="btn-link">
+                <a class="header_btn__link login" href="">ورود</a>
+                <a class="header_btn__link start" href="">شروع رایگان</a>
+            </div>
+        </div>
+
+
+        <div class="mobile-menu-btn" id="mobileMenuBtn">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </div>
+
+
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-menu-header">
+                <div class="mobile-logo">
+                    <img class="mobile-logo-img" src="pics/tickets.png" alt="بونسیا">
+                    <h3 class="mobile-logo-title">بونسیا</h3>
+                </div>
+                <button class="mobile-menu-close" id="mobileMenuClose">
+                    <span class="close-line"></span>
+                    <span class="close-line"></span>
+                </button>
+            </div>
+            
+            <nav class="mobile-nav">
+                <ul class="mobile-menu-list">
+                    <li class="mobile-menu-item">
+                        <a href="#" class="mobile-menu-link">
+                            محصولات
+                            <img class="mobile-dropdown-icon" src="pics/chevron-down.png" alt="">
+                        </a>
+                    </li>
+                    <li class="mobile-menu-item">
+                        <a href="#" class="mobile-menu-link">
+                            قالب ها
+                            <img class="mobile-dropdown-icon" src="pics/chevron-down.png" alt="">
+                        </a>
+                    </li>
+                    <li class="mobile-menu-item">
+                        <a href="#" class="mobile-menu-link">قیمت گزاری</a>
+                    </li>
+                    <li class="mobile-menu-item">
+                        <a href="#" class="mobile-menu-link">نظرات</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="mobile-buttons">
+                <a class="mobile-btn login-btn" href="">ورود</a>
+                <a class="mobile-btn start-btn" href="">شروع رایگان</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="plan-pricing">
+            <div class="container">
+                <div class="plan-pricing__content">
+                    <div class="plan-pricing__title">
+                        <h1>پلن ها & قیمت ها</h1>
+                    </div>
+                    <div class="switch__content">
+                        <img src="http://web.archive.org/web/20221117021714im_/https://assets-global.website-files.com/58868bcd2ef4daaf0f072900/5e9d7255d3886a6103fb12a9_FREE-text.svpics/chevron-down.png" alt="رایگان" class="offer-img">
+                        <h3 class="switch__content-monthly">ماهانه</h3>
+                        <div class="switch" id="pricingSwitch">
+                            <div class="flicker"></div>
+                        </div>
+                        <h3 class="switch__content-yearly">سالانه</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="workflow">
+            <div class="container">
+                <div class="workflow__content">
+                    <div class="workflow__plan">
+                        <h3 class="workflow__plan-text">شروع کننده</h3>
+                        <p>ایده آل برای فریلنسرها و پیمانکارهایی که تازه شروع به کار کرده‌اند</p>
+                        <div class="workflow__plan-price">
+                            <h2 class="price-monthly">500,000 تومان / در ماه</h2>
+                            <h2 class="price-yearly" style="display: none;">5,000,000 تومان / در سال</h2>
+                        </div>
+                        <ul class="workflow__menu">
+                            <li class="workflow__menu-item">مشتریان و پروژه‌های نامحدود</li>
+                            <li class="workflow__menu-item">قراردادها</li>
+                            <li class="workflow__menu-item">صدور فاکتور و پرداخت‌ها</li>
+                            <li class="workflow__menu-item">مدیریت ارتباط با مشتری</li>
+                            <li class="workflow__menu-item">مدیریت پروژه</li>
+                            <li class="workflow__menu-item">پیگیری وظایف و زمان</li>
+                            <li class="workflow__menu-item">برنامه‌های iOS، اندروید، کروم، مک</li>
+                        </ul>
+                        <a href="" class="workflow__link">شروع رایگان</a>
+                    </div>
+
+                    <div class="workflow__plan workflow__plan--popular">
+                        <div class="popular-label">
+                            <span>محبوب</span>
+                        </div>
+                        <h3 class="workflow__plan-text">حرفه‌ای</h3>
+                        <p>هر چیزی که یک کسب و کار مستقل و در حال رشد برای پیشرفت نیاز دارد</p>
+                        <div class="workflow__plan-price">
+                            <h2 class="price-monthly">1,000,000 تومان / در ماه</h2>
+                            <h2 class="price-yearly" style="display: none;">10,000,000 تومان / در سال</h2>
+                        </div>
+                        <ul class="workflow__menu">
+                            <li class="workflow__menu-item">هر چیزی در گردش کار</li>
+                            <li class="workflow__menu-item">تجربه مشتری با برچسب سفید</li>
+                            <li class="workflow__menu-item">فرم‌ها و پرسشنامه‌های مشتری <span class="label-new">جدید</span></li>
+                            <li class="workflow__menu-item">اتوماسیون گردش کار</li>
+                            <li class="workflow__menu-item">پیمانکار فرعی (حالت مشتری)</li>
+                            <li class="workflow__menu-item">ادغام تقویمی</li>
+                            <li class="workflow__menu-item">پورتال مشتری</li>
+                            <li class="workflow__menu-item">پشتیبانی</li>
+                        </ul>
+                        <a href="" class="workflow__link">شروع رایگان</a>
+                    </div>
+
+                    <div class="workflow__plan">
+                        <h3 class="workflow__plan-text">تجاری</h3>
+                        <p>بسته بی‌نظیر برای کسب و کارها و آژانس‌های کوچک</p>
+                        <div class="workflow__plan-price">
+                            <h2 class="price-monthly">2,000,000 تومان / در ماه</h2>
+                            <h2 class="price-yearly" style="display: none;">20,000,000 تومان / در سال</h2>
+                        </div>
+                        <ul class="workflow__menu">
+                            <li class="workflow__menu-item">مشتریان و پروژه‌های نامحدود</li>
+                            <li class="workflow__menu-item">پیشنهادات</li>
+                            <li class="workflow__menu-item">قراردادها</li>
+                            <li class="workflow__menu-item">صدور فاکتور و پرداخت‌ها</li>
+                            <li class="workflow__menu-item">مدیریت ارتباط با مشتری</li>
+                            <li class="workflow__menu-item">مدیریت پروژه</li>
+                            <li class="workflow__menu-item">پیگیری وظایف و زمان</li>
+                            <li class="workflow__menu-item">برنامه‌های iOS، اندروید، کروم، مک</li>
+                        </ul>
+                        <a href="" class="workflow__link">شروع رایگان</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="add-ons">
+            <div class="container">
+                <div class="add-ons__title">
+                    <h2>کار خود را با افزونه‌های فوق‌العاده افزایش دهید</h2>
+                </div>
+                <div class="add-ons__content">
+                    <div class="add-ons__item">
+                        <div class="add-ons__item-title">
+                            <h3>همکاران</h3>
+                            <p>برای دسترسی و عملکرد محدود، سایر کاربران را به پروژه‌های خاص دعوت کنید</p>
+                        </div>
+                        <div class="add-ons__item-price">
+                            <h3>رایگان</h3>
+                        </div>
+                    </div>
+                    <div class="add-ons__item">
+                        <div class="add-ons__item-title">
+                            <h3>شرکا</h3>
+                            <p>برای دسترسی کامل به حساب و مدیریت شرکت، سایر کاربران را دعوت کنید</p>
+                        </div>
+                        <div class="add-ons__item-price">
+                            <h3>500,000 تومان</h3>
+                            <span>در ماه</span>
+                        </div>
+                    </div>
+                    <div class="add-ons__item">
+                        <div class="add-ons__item-title">
+                            <h3>مالیات بونسیا</h3>
+                            <p>هزینه‌ها را پیگیری کنید، استهلاک‌ها را شناسایی کنید و مالیات‌های 3 ماهه را به راحتی تخمین بزنید</p>
+                            <div class="add-ons__item-learnmore">
+                                <a href="#">مطالعه بیشتر</a>
+                                <img class="add-ons__item-img" src="pics/chevron-down-left.png" alt="">
+                            </div>
+                        </div>
+                        <div class="add-ons__item-price">
+                            <h3>600,000 تومان</h3>
+                            <span>در ماه</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ads">
+            <div class="container">
+                <div class="ads__content">
+                    <div class="ads__title">
+                        <h2>این تجاری‌سازی <span style="color: #00b289;">توست</span>.</h2>
+                        <h2>ما اینجاییم که به رشد تو کمک کنیم.</h2>
+                    </div>
+                    <div class="ads__link">
+                        <a class="header_btn__link start">شروع رایگان</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="questions">
+            <div class="container">
+                <div class="questions__content">
+                    <h2 class="questions__content-frequently">سوالات متداول</h2>
+                    <div class="questions__content-questions">
+                        <div class="questions__content-item">
+                            <div class="questions__content-title" onclick="toggleQuestion(this)">
+                                <h3>چگونه پلن رایگان کار می‌کند؟</h3>
+                                <img class="question-img" src="pics/chevron-down.png" alt="">
+                            </div>
+                            <div class="questions__content-description">
+                                <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                            </div>
+                        </div>
+                        <div class="questions__content-item">
+                            <div class="questions__content-title" onclick="toggleQuestion(this)">
+                                <h3>چگونه می‌توانم پلن خود را تغییر دهم؟</h3>
+                                <img class="question-img" src="pics/chevron-down.png" alt="">
+                            </div>
+                            <div class="questions__content-description">
+                                <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                            </div>
+                        </div>
+                        <div class="questions__content-item">
+                            <div class="questions__content-title" onclick="toggleQuestion(this)">
+                                <h3>چگونه می‌توانم اشتراک بونسیا خود را لغو کنم؟</h3>
+                                <img class="question-img" src="pics/chevron-down.png" alt="">
+                            </div>
+                            <div class="questions__content-description">
+                                <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                            </div>
+                        </div>
+                        <div class="questions__content-item">
+                            <div class="questions__content-title" onclick="toggleQuestion(this)">
+                                <h3>خط مشی بازپرداخت شما چیست؟</h3>
+                                <img class="question-img" src="pics/chevron-down.png" alt="">
+                            </div>
+                            <div class="questions__content-description">
+                                <p class="description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__content-product">
+                    <h3 class="footer__product-title">محصولات</h3>
+                    <div class="footer_product-item">
+                        <a class="footer__product-link" href="#">قراردادها</a>
+                        <a class="footer__product-link" href="#">صدور فاکتور</a>
+                        <a class="footer__product-link" href="#">مدیریت ارتباط با مشتری</a>
+                        <a class="footer__product-link" href="#">پیگیری زمان</a>
+                        <a class="footer__product-link" href="#">پیگیری وظایف</a>
+                        <a class="footer__product-link" href="#">فرم‌ها</a>
+                        <a class="footer__product-link" href="#">حسابداری</a>
+                        <a class="footer__product-link" href="#">مالیات بونسیا</a>
+                        <a class="footer__product-link pricing" href="#">قیمت‌گزاری</a>
+                    </div>
+                </div>
+                <div class="footer__content-resources">
+                    <h3 class="footer__product-title">منابع رایگان</h3>
+                    <div class="footer_product-item">
+                        <a class="footer__product-link" href="">منابع فریلنسری</a>
+                        <a class="footer__product-link" href="">وبلاگ فریلنسری بونسیا</a>
+                        <a class="footer__product-link" href="">نحوه نوشتن قرارداد</a>
+                        <a class="footer__product-link" href="">سازنده امضای آنلاین</a>
+                        <a class="footer__product-link" href="">مرکز مالیات خوداشتغالی</a>
+                        <a class="footer__product-link template" href="">قالب‌ها</a>
+                    </div>
+                </div>
+                <div class="footer__content-bonsai">
+                    <h3 class="footer__product-title">بونسیا</h3>
+                    <div class="footer_product-item">
+                        <a class="footer__product-link" href="#">درباره ما</a>
+                        <a class="footer__product-link" href="#">تماس با ما</a>
+                        <a class="footer__product-link" href="#">پشتیبانی</a>
+                        <a class="footer__product-link" href="#">LinkedIn</a>
+                        <a class="footer__product-link" href="#">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
